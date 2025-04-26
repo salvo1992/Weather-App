@@ -1,0 +1,11 @@
+.wrapper{
+  position:absolute;top:12px;left:12px;
+  padding:.6rem 1rem;border-radius:12px;
+  color:#fff;font-weight:600;
+  background:linear-gradient(180deg,#4da6ff 50%,#021024 50%);
+  box-shadow:0 4px 10px rgba(0,0,0,.15);
+  animation:fade .5s;
+}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+
+  

@@ -1,0 +1,4 @@
+.footer{padding:1.5rem;text-align:center;background:#222;color:#fff;}
+.btn{display:inline-flex;gap:.5rem;align-items:center;background:none;border:none;color:inherit;cursor:pointer}
+.logo{width:28px;height:28px;filter:invert(1)}
+.btn:hover{opacity:.8}

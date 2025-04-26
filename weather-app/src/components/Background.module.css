@@ -1,0 +1,14 @@
+:root{
+  --bg1-day:#56ccf2;  --bg2-day:#2f80ed;
+  --bg1-night:#021024;--bg2-night:#000814;
+}
+
+.hero{
+  position:fixed;        /* copre tutto */
+  inset:0;
+  z-index:-1;
+  background:linear-gradient(180deg,var(--bg1) 0%,var(--bg2) 100%);
+  background-size:cover;background-position:center;
+  transition:opacity .8s;
+}
+ 

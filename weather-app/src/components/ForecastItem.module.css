@@ -1,0 +1,16 @@
+.card{
+    min-width:90px;
+    padding:.8rem .6rem;
+    border-radius:14px;
+    background:rgba(255,255,255,.18);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    text-align:center;
+    color:#fff;
+    scroll-snap-align:center;
+  }
+  
+  .day{margin:0 0 .3rem;font-size:.82rem;font-weight:600}
+  .icon{width:48px;height:48px}
+  .temp{margin:.2rem 0 0;font-size:1rem;font-weight:600}
+  

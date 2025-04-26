@@ -1,0 +1,10 @@
+.badge{
+    display:inline-block;padding:.2rem .6rem;border-radius:12px;
+    font-size:.8rem;font-weight:600;color:#fff;margin-top:.6rem;
+  }
+  .q1{background:#2ecc71;}   /* Buono   – verde   */
+  .q2{background:#8bc34a;}   /* Discreto */
+  .q3{background:#f1c40f;}   /* Moderato */
+  .q4{background:#e67e22;}   /* Scarso  */
+  .q5{background:#e74c3c;}   /* Pessimo */
+  

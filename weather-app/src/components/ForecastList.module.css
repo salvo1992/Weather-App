@@ -1,0 +1,8 @@
+.slider{
+    margin:2rem 0 3rem;
+    display:flex;gap:1rem;
+    overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:.5rem;
+  }
+  .slider::-webkit-scrollbar{height:6px}
+  .slider::-webkit-scrollbar-thumb{background:#fff3;border-radius:3px}
+  

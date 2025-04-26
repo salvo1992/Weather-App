@@ -1,0 +1,15 @@
+.wrapper{
+  position:relative;
+  width:100%;
+  max-width:480px;
+}
+
+.aa-Autocomplete{width:100%}            /* forza tema Algolia 100% */
+
+.voiceBtn{
+  position:absolute;top:50%;right:6px;
+  transform:translateY(-50%);
+  background:none;border:none;
+  font-size:1.4rem;cursor:pointer;color:#1976d2;
+}
+.voiceBtn:hover{opacity:.75}
