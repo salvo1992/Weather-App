@@ -32,7 +32,8 @@ export default function WeatherCard({ data }) {
         <AirBadge lat={data.coord.lat} lon={data.coord.lon} />
       </div>
 
-      <HourlyChart city={data.name} />
+      <HourlyChart city={data.name} className={styles.HourlyChart} />
+
     </motion.div>
   );
 }

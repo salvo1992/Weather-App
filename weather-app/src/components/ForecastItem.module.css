@@ -1,5 +1,5 @@
 .card{
-    min-width:90px;
+    width:80px;flex:0 0 80px;
     padding:.8rem .6rem;
     border-radius:14px;
     background:rgba(255,255,255,.18);

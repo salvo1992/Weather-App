@@ -11,4 +11,11 @@
   background-size:cover;background-position:center;
   transition:opacity .8s;
 }
- 
+.bgStars{
+  background-image:
+    radial-gradient(1px 1px at 25% 35%, rgba(255,255,255,.5) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 65% 25%, rgba(255,255,255,.35) 50%, transparent 51%),
+    radial-gradient(1px 1px at 75% 55%, rgba(255,255,255,.4) 50%, transparent 51%),
+    linear-gradient(180deg,var(--bg1) 0%,var(--bg2) 100%);
+  background-size:100% 100%;
+}

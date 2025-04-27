@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import styles from './Background.module.css';
+import phase from '../hooks/useDayPhase'; // custom hook
+
 
 const UNSPLASH = 'https://source.unsplash.com/1600x900/?';
 
@@ -20,8 +22,8 @@ export default function Background({ city, code }) {
 
   return (
     <div
-      className={`${styles.hero} ${klass}`}
-      style={url ? { backgroundImage: `url(${url})` } : undefined}
-    />
+    className={`${styles.hero} ${phase==='night' ? styles.bgStars : ''}`}
+    style={url ? {backgroundImage:`url(${url})`} : undefined}
+  />
   );
 }

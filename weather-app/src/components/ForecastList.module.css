@@ -1,6 +1,6 @@
 .slider{
     margin:2rem 0 3rem;
-    display:flex;gap:1rem;
+    display:flex;gap:.75rem;
     overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:.5rem;
   }
   .slider::-webkit-scrollbar{height:6px}

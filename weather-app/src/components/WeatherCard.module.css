@@ -9,6 +9,11 @@
   box-shadow:0 8px 24px rgba(0,0,0,.3);
   text-align:center;
   color:#fff;
+  overflow:hidden;
+}
+
+.HourlyChart{
+  margin-top:1rem;
 }
 
 .icon{width:100px;margin:-60px auto -4px;}

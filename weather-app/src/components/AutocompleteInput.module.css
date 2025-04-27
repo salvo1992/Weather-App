@@ -1,13 +1,20 @@
-.wrapper{
-  position:relative;
-  width:100%;
-  max-width:480px;
-}
+.wrapper{ position:relative; width:100%; max-width:480px; }
 
-.aa-Autocomplete{width:100%}            /* forza tema Algolia 100% */
+.aa-Autocomplete{width:100%}  
+.aa-InputWrapper{      /* bordo radius coerente */
+   border:2px solid #fff5;
+   border-radius:12px;
+ }
+ .aa-Input{
+   padding:.7rem 2.8rem .7rem 1rem;   /* spazio per l’icona lente */
+   color:#fff; background:none;
+ }
+ .aa-SubmitIcon{color:#fff}           /* lente bianca */
+ .aa-Input:focus{outline:none;border-color:#fff}
+/* forza tema Algolia 100% */
 
 .voiceBtn{
-  position:absolute;top:50%;right:6px;
+  position:absolute;top:50%;right:12px;
   transform:translateY(-50%);
   background:none;border:none;
   font-size:1.4rem;cursor:pointer;color:#1976d2;
